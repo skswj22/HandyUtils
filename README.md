@@ -1,6 +1,6 @@
 # HandyUtils (핸디 유틸) 🛠️
 
-**HandyUtils**는 개발자에게 유용한 순수 자바스크립트(Vanilla JS) 기반의 경량 도구 모음 저장소.
+**HandyUtils**는 개발자에게 유용한 순수 자바스크립트(Vanilla JS) 기반의 경량 도구 모음 저장소.<br/>
 복잡한 설정 없이(Zero Configuration), 누구나 바로 가져다 쓸 수 있는 실용적인 유틸리티를 지향.
 
 ## 📦 포함된 도구 목록 (Tools)
@@ -14,7 +14,7 @@
 ---
 
 ## 📜 라이선스 (License)
-본 소프트웨어는 **Apache License 2.0**을 준수함.
+본 소프트웨어는 **Apache License 2.0**을 준수함.<br/>
 유연한 사용과 수정이 보장되며, 상업적 활용을 포함한 모든 권리가 전적으로 허용됨.
 
 ## 👤 만든이 (Author)

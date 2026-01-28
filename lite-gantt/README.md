@@ -1,6 +1,6 @@
 # LiteGantt (라이트 간트)
 
-**LiteGantt**는 외부 의존성이 전혀 없는(Zero Dependency), 초경량 순수 자바스크립트 간트 차트 라이브러리.
+**LiteGantt**는 외부 의존성이 전혀 없는(Zero Dependency), 초경량 순수 자바스크립트 간트 차트 라이브러리.<br/>
 복잡한 설정 없이 스크립트 파일 하나만으로 즉시 아름다운 반응형 타임라인 차트 생성 가능.
 
 ## ✨ 주요 기능 (Key Features)
@@ -69,11 +69,11 @@ HTML에 차트를 그릴 컨테이너를 생성하고, 자바스크립트로 데
 - 데이터가 추가된 후 반드시 호출해야 화면에 나타남.
 
 ## 🎨 스타일 커스터마이징
-`js/lite_gantt.js` 파일 상단의 `baseStyles` 변수에서 CSS를 직접 수정하여 디자인 변경 가능.
+`js/lite_gantt.js` 파일 상단의 `baseStyles` 변수에서 CSS를 직접 수정하여 디자인 변경 가능.<br/>
 기본적으로 ID `lite-gantt-styles`로 스타일이 헤드에 주입됨.
 
 ## 📜 라이선스 (License)
-본 소프트웨어는 **Apache License 2.0**을 준수함.
+본 소프트웨어는 **Apache License 2.0**을 준수함.<br/>
 유연한 사용과 수정이 보장되며, 상업적 활용을 포함한 모든 권리가 전적으로 허용됨.
 
 ## 👤 만든이 (Author)
