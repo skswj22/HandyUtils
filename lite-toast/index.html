@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiteToast Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 50px;
+            text-align: center;
+            background-color: #f0f2f5;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+
+        .btn-success {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .btn-error {
+            background-color: #F44336;
+            color: white;
+        }
+
+        .btn-warning {
+            background-color: #FF9800;
+            color: white;
+        }
+
+        .btn-info {
+            background-color: #2196F3;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>LiteToast Demo 🍞</h1>
+    <p>버튼을 눌러 토스트 메시지를 확인해보세요.</p>
+
+    <div class="btn-group">
+        <button class="btn-success" onclick="LiteToast.success('저장에 성공했습니다!')">Success</button>
+        <button class="btn-error" onclick="LiteToast.error('오류가 발생했습니다.')">Error</button>
+        <button class="btn-warning" onclick="LiteToast.warning('주의가 필요합니다.')">Warning</button>
+        <button class="btn-info" onclick="LiteToast.info('새로운 알림이 있습니다.')">Info</button>
+    </div>
+
+    <!-- Load Library -->
+    <script src="js/lite_toast.js"></script>
+
+</body>
+
+</html>
